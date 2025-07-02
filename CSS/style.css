@@ -10,3 +10,10 @@
 .shields_io {
   height: 34px;
 }
+
+.funnel-display {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
