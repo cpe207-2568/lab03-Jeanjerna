@@ -14,12 +14,21 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-primary " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><strong>🏠Home</strong></a>
+        <a class="navbar-brand fs-1 me-5" href="index.html">
+          <strong><i class="bi bi-house-door-fill me-2"></i>Home</strong></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -29,24 +38,131 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span> 
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="experience.html">Experience</a>
+              <a
+                class="nav-link fs-4 me-4"
+                aria-current="page"
+                href="experience.html"
+                >Experience</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link fs-4 me-4" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link fs-4 me-4" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+    <div
+      class="d-flex justify-content-center align-items-center mt-4 gap-4 flex-wrap"
+    >
+      <img
+        src="image/DSC_1033.jpg"
+        alt=""
+        class="img-fluid"
+        style="max-height: 270px; border-radius: 10px; object-fit: cover"
+      />
+      <div class="p-4 bg-light text-dark rounded shadow" style="width: 400px">
+        <h5 class="mb-3 text-center">Chaichan Chaisak</h5>
+        <h6 class="mb-3 text-center">
+          2rd-year Computer Engineering student, <br />Chiang Mai University
+          <img src="image/CMU-EN.png" style="max-height: 20px" />
+        </h6>
+      </div>
+    </div>
 
+    <hr />
+
+    <div
+      class="d-flex flex-column justify-content-center align-items-center mt-4 container"
+    >
+      <div
+        class="p-4 bg-pastel-blue rounded-4 shadow text-white w-100"
+        style="max-width: 700px"
+      >
+        <h4 class="mb-3 text-center mb-4">
+          <i class="bi bi-code-slash"></i> Programing Skills
+        </h4>
+        <p class="text-center">
+          <img
+            src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&amp;logo=c%2B%2B&amp;logoColor=white"
+            alt="C++"
+          />
+          <img
+            src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&amp;logo=Qt&amp;logoColor=white"
+            alt="Qt"
+          />
+          <img
+            src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white"
+            alt="Java"
+          />
+          <img
+            src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&amp;logo=html5&amp;logoColor=white"
+            alt="HTML5"
+          />
+        </p>
+        <p class="text-center">
+          <img
+            src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54"
+            alt="Python"
+          />
+          <img
+            src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&amp;logo=numpy&amp;logoColor=white"
+            alt="NumPy"
+          />
+          <img
+            src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&amp;logo=Matplotlib&amp;logoColor=black"
+            alt="Matplotlib"
+          />
+          <img
+            src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&amp;logo=pandas&amp;logoColor=white"
+            alt="Pandas"
+          />
+        </p>
+      </div>
+
+      <div
+        class="p-4 bg-pastel-blue rounded-4 shadow text-white mt-4 w-100"
+        style="max-width: 700px"
+      >
+        <h4 class="text-center mb-4">
+          <i class="bi bi-bookmark-star"></i> Other Skills
+        </h4>
+
+        <p class="text-center mb-3">
+          <strong>3D CAD Design</strong> :
+          <img
+            src="https://img.shields.io/badge/AutoCAD-0076C8?style=for-the-badge&logo=autodesk&logoColor=white"
+            alt="AutoCAD"
+          />
+          <img
+            src="https://img.shields.io/badge/Onshape-1B5FAA?style=for-the-badge&logo=onshape&logoColor=white&color=4CAF50"
+            alt="Onshape"
+          />
+        </p>
+
+        <p class="text-center mb-3">
+          <strong>Music</strong> :
+          <span class="badge bg-dark fs-6"> Drumming 🥁</span>
+        </p>
+
+        <p class="text-center">
+          <strong>Video Editing</strong> :
+          <img
+            src="https://img.shields.io/badge/DaVinci%20Resolve-000000?style=for-the-badge&logo=DaVinci%20Resolve&logoColor=white"
+            alt="DaVinci Resolve"
+          />
+        </p>
+      </div>
+    </div>
+    <hr>
   </body>
 </html>
